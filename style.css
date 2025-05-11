@@ -1,0 +1,356 @@
+*{
+     padding: 0;
+     margin: 0;
+     box-sizing: border-box;
+     scroll-behavior: smooth;
+}
+.firstPart{
+     width: 100%;
+     height: 950px;
+     background-image: url("./image/photo4.jpg");
+     background-repeat: no-repeat;
+     background-position: center;
+     background-size: cover;
+     z-index: 0;
+
+}
+nav{
+     padding-top: 30px;
+     width:auto;
+     color: whitesmoke;
+     display: flex;
+     justify-content: space-around;
+}
+nav label{
+   font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+   font-weight: 900;
+   font-size: 40px;
+   letter-spacing: 5px;
+   text-align: justify;
+ 
+}
+nav label span{
+     color:rgb(10, 170, 26) ;
+}
+nav ul{
+position: relative;
+top:10px;
+display: flex;
+flex-direction: row;
+}
+
+nav ul li{
+     font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+     font-weight: 900;
+     font-size: 28px;
+     list-style-type: none;
+     margin-left: 40px;
+     cursor: pointer;  
+     padding-left: 28px;
+     transition: 1s ease; 
+}
+nav ul li a{
+     color: white ;
+     text-decoration: none;
+      
+}
+
+nav ul li:hover{
+     color: rgb(10, 170, 26);
+     transform: scale(1.1);
+}
+
+
+.sectionWithForm{
+     box-sizing: border-box;
+     margin-top: 30px;
+   display: flex;
+   justify-content: space-evenly;
+   flex-wrap: wrap;
+}
+
+.sectionWithForm .forAs{
+margin-top: 240px;    
+width: 600px;
+height: 230px;
+     background-color: rgb(218, 246, 237);
+     color: rgb(87, 225, 62);
+     padding: 18px;
+     border-radius: 10px;
+}
+
+.forAs h2{
+   font-size: 50px;
+}
+
+
+.formCandidat{
+     border-radius: 10px;
+     background-color: rgba(93, 41, 123, 0.411);
+     width: 600px;
+     height: auto;
+     top:0px;
+     left: 380px;
+     
+}
+.formCandidat form{
+     color: white;
+     display: flex;
+     flex-direction: column;
+     align-items: center;
+}
+
+.formCandidat form h3{
+     font-size: 40px;
+     margin: 10px;
+     text-align: center;
+}
+.formCandidat form p{
+     width: 500px;
+     background-color: rgb(71, 135, 231);
+     font-size: 23px;
+     padding: 10px 20px;
+     border-radius: 10px;
+     margin: auto;
+
+}
+.formCandidat form label{
+
+     font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+     font-size: 30px;
+     padding: 18px 0px;
+}
+
+.phoneData {
+  display: flex;
+  width: 500px;
+
+}
+.phoneData select{
+     font-size: 18px;
+     width: 120px;
+     
+     border-radius: 10px 0px 0px 10px;
+     
+}
+.phoneData input{
+     border-radius: 0px 10px 10px 0px;
+}
+
+
+.formCandidat form input[type="text"],
+.formCandidat form input[type="email"]{
+   width: 500px;
+   height: 50px;
+   font-size:24px ;
+  
+}
+
+.formCandidat form .genderRadio{
+     width: 100%;
+     display:flex;
+     justify-content: space-around;
+  
+  
+}
+
+.formCandidat form .genderRadio input[type="radio"]{
+  width: 20px;
+}
+.btn-send{
+     color: white;
+     font-size: 24px;
+     margin: 18px 10px;
+     padding: 18px 30px;
+     background-color: rgb(119, 4, 98);
+     border-radius: 15px;
+}
+
+
+
+.benefitsSection{
+  height: 900px;
+  font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+  font-size: 30px;
+  text-align: center;   
+}
+
+.benefitsSection h2 , p{
+     margin-top: 36px;
+}
+.areTarget{
+     display: flex;
+     justify-content: space-around;
+     align-items: center;
+}
+
+.areTarget .imgBox{
+     margin-top: 100px;
+     width: 400px;
+     height: 450px;
+     border-radius: 20px;
+     text-align: center;
+}
+.areTarget .imgBox img{
+     width: 400px;
+     height: 300px;
+     border-radius: 15px;
+     
+}
+
+.areTarget .imgBox p , h3{
+     font-size: 25px;
+}
+
+.aboutUs{
+     height: auto;
+     background-image: url("/image/photo7.jpg");
+     background-position: center;
+     display: flex;
+     flex-direction: column;
+     justify-content: center;
+     align-items: center;
+     width: 100%;
+     height: 1000px;
+     text-align: center;
+     
+}
+
+.aboutUsDitaile{
+     width: 70%;
+     height: 90%;
+     display: flex;
+     flex-direction: column;
+     justify-content: center;
+     align-items: center;
+     backdrop-filter: blur(10px);
+     
+
+}
+.aboutUsDitaile h2{
+     font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+     font-size: 70px;
+     font-weight: bolder;
+}
+
+.aboutUsDitaile p {
+     font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+     width: 1000px;
+     margin-top: 40px;
+     text-align: center;
+     font-size: 36px;
+     margin: auto;
+}
+
+.qaSection{
+     background-color: rgb(242, 233, 223);
+     display: flex;
+     flex-direction: column;
+     justify-content: center;
+      text-align: center;
+     align-items: center;
+     font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+}
+.qaSection h2{
+     margin: 30px;
+     font-weight: 700;
+     font-size: 60px;
+}
+
+.qaSection p{
+     width: 1100px;
+     font-size: 30px;
+     margin: 20px;
+}
+
+.qaItem h3{
+     font-size: 40px;
+}
+  
+
+/* General Footer Styling */
+.siteFooter {
+     background-color: #2e2e2e;
+     color: #fff;
+     font-family: 'Arial', sans-serif;
+     padding: 40px 20px;
+     display: flex;
+     flex-direction: column;
+ }
+ 
+ .footerContainer {
+     display: flex;
+     justify-content: space-between;
+     flex-wrap: wrap;
+     max-width: 1200px;
+     margin: 0 auto;
+ }
+ 
+ .footerSection {
+     flex: 1 1 250px;
+     margin: 20px;
+     padding: 10px;
+ }
+ 
+ .footerSection h3,
+ .footerSection h4 {
+     color:rgb(10, 170, 26) ; /* Gold color for headings */
+     font-size: 22px;
+     margin-bottom: 15px;
+ }
+ 
+ .footerSection p {
+     color: #e0e0e0;
+     font-size: 14px;
+     line-height: 1.5;
+ }
+ 
+ /* Quick Links Section */
+ .quickLinks ul {
+     list-style-type: none;
+     padding: 0;
+ }
+ 
+ .quickLinks li {
+     margin: 8px 0;
+ }
+ 
+ .quickLinks a {
+     color: white ; /* Teal for links */
+     text-decoration: none;
+     font-size: 14px;
+     transition: color 0.3s ease;
+ }
+ 
+ .quickLinks a:hover {
+     color:rgb(10, 170, 26) ; /* Hover effect: gold color */
+ }
+ 
+ /* Contact Section */
+ .contact a {
+     color: #76c7c0;
+     text-decoration: none;
+     font-size: 14px;
+     transition: color 0.3s ease;
+ }
+ 
+ .contact a:hover {
+     color: #ffd700;
+ }
+ 
+ /* Footer Bottom Styling */
+ .footerBottom {
+     text-align: center;
+     margin-top: 30px;
+     padding-top: 10px;
+     border-top: 1px solid #444;
+     font-size: 12px;
+     color: #aaaaaa;
+ }
+ 
+ .footerBottom p {
+     margin: 0;
+ }
+ 
+
+ 
