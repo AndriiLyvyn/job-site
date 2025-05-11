@@ -204,7 +204,8 @@ height: 230px;
 
 .aboutUs{
      height: auto;
-     background-image: url("./image/photo7.jpg");
+     background-color:red;
+     
      background-position: center;
      display: flex;
      flex-direction: column;
