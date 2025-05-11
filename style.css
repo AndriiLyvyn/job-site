@@ -204,8 +204,8 @@ height: 230px;
 
 .aboutUs{
      height: auto;
-     background-image: url("https://github.com/AndriiLyvyn/job-site/blob/main/image/photo7.jpg");
-     
+     background-color:pink;
+     /*  background-image: url("./image/photo7.jpg"); */
      background-position: center;
      display: flex;
      flex-direction: column;
