@@ -7,7 +7,7 @@
 .firstPart{
      width: 100%;
      height: 950px;
-     background-image: url("./image/photo4.jpg");
+     background-image: url("https://andriilyvyn.github.io/job-site/image/photo4.jpg");
      background-repeat: no-repeat;
      background-position: center;
      background-size: cover;
@@ -204,8 +204,8 @@ height: 230px;
 
 .aboutUs{
      height: auto;
-     background-color:pink;
-     /*  background-image: url("./image/photo7.jpg"); */
+     
+     background-image: url("https://andriilyvyn.github.io/job-site/image/photo7.jpg"); 
      background-position: center;
      display: flex;
      flex-direction: column;
